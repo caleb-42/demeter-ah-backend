@@ -777,7 +777,7 @@ export default {
         {
           model: db.User,
           as: 'author',
-          attributes: ['firstName', 'lastName', ['image', 'authorImage']]
+          attributes: ['firstName', 'lastName', 'username', ['image', 'authorImage']]
         },
         {
           model: db.Category,
